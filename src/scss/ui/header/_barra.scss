@@ -3,14 +3,14 @@
 
 .barra {
     display: none;
-    @include m.tablet {
+    @include m.laptop {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     &__navegacion {
-        @include m.tablet {
+        @include m.laptop {
             display: flex;
             gap: 4rem;
         }

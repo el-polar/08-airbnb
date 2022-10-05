@@ -9,6 +9,7 @@
         @include m.scrollHorizontal;
         @include m.tablet {
             @include m.grid(2, 2rem);
+            overflow: hidden;
         }
         @include m.laptop {
             @include m.grid(4, 2rem);

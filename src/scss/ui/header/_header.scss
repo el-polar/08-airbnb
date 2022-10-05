@@ -2,7 +2,6 @@
 @use "base/variables" as v;
 
 .header {
-    background-image: url(../img/header.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem 0 20rem 0;
@@ -17,4 +16,13 @@
     &__busqueda-boton {
         @include m.boton(v.$blanco, v.$primario);
     }
+}
+.notavif.notwebp .header {
+    background-image: url(../img/header.jpg);
+}
+.webp .header {
+    background-image: url(../img/header.webp);
+}
+.avif .header {
+    background-image: url(../img/header.avif);
 }
